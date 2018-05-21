@@ -20,7 +20,7 @@ var cookiesEu = {
   },
 
   setCookie: function() {
-    Cookies.set('cookie_eu_consented', true, { path: '/', expires: 365 });
+    Cookies.set('cookie_eu_consented_new', true, { path: '/', expires: 365 });
 
     var container = document.querySelector('.js-cookies-eu');
     container.parentNode.removeChild(container);
